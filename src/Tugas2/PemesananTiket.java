@@ -84,6 +84,7 @@ public class PemesananTiket {
     /**
      * Menampilkan detail tiket beserta total harga setelah diskon.
       */
+    private boolean member = true;
     public void tampilkanDetailTiket() {
             System.out.println("Judul Film: " + getJudulFilm());
             System.out.println("Jumlah Tiket: " + getJumlahTiket());
